@@ -7,6 +7,8 @@ Dieses Repository enthält drei verschiedene Spielvarianten der "[Mountain Car](
 ### 1. Manuelle Steuerung
 In dem ersten Programmcode [`gym_mountain_car_manual.py`](MountainCar/gym_mountain_car_manual.py) findet man die Version des Spiels, bei welcher man das Auto selbst steuern kann. Dies tut man mit den Pfeiltasten **Links** und **Rechts**.
 
+(Seperate Version zum Zählen der Schritte: gym_mountain_car_manual_statistics.py)
+
 ### 2. Regelbasierter Algorithmus
 In dem zweiten Programmcode [`gym_mountain_car_rules.py`](MountainCar/gym_mountain_car_rules.py) findet man die Version des Spiels, bei welcher das Auto anhand von zuvor festgelegten Regeln selbst fahren kann. Zudem hat dieses Programm kein Lern-Algorithmus integriert und somit ist der erste Versuch nahezu gleich, wie der Letzte.
 
